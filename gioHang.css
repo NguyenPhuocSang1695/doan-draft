@@ -355,7 +355,7 @@ footer {
 }
 
 .row-1 img {
-  width: 100%;
+  width: 88%;
   height: auto;
 }
 
@@ -491,6 +491,19 @@ footer {
       width: 100%;
       margin: 0;
      }
+
+     .text-wrapper {
+      text-align: justify;
+     }
+
+         .col-03 {
+           width: 100%;
+           margin: 0px;
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           align-items: flex-start;
+         }
 }
 
 /* TABLET  */
@@ -581,5 +594,24 @@ footer {
     /* justify-content: space-between; */
     margin-top: 6rem;
   }
+
+  .text-wrapper {
+    display: flex;
+      justify-content: center;
+  }
+
+  .text-wrapper strong {
+    font-size: 36px;
+  }
+
+  .text-wrap-1 {
+    display: none;
+  }
+
+  .text-wrapper-3-1 p {
+    font-size: 31px;
+  }
+
+  
 
 }
